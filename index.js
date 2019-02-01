@@ -11,4 +11,5 @@ function theBeatlesPlay(musicians, instruments){
     result.push(musicians[i] + " plays " + instruments[i]);
   }
   
+  return result
 }
