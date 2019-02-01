@@ -20,6 +20,13 @@ function johnLennonFacts(facts){
 }
 
 function iLoveTheBeatles(amount) {
-  let result = []
-  for(var i = 0; i <= amount && i < )
+  let result = ["I love the Beatles!"]
+  if(amount > 15) {
+    return result
+  }
+  for(var i = 0; i < amount; i++) {
+    result.push("I love the Beatles!")
+  }
+  
+  return result
 }
