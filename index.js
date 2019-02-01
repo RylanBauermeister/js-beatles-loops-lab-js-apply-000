@@ -13,3 +13,7 @@ function theBeatlesPlay(musicians, instruments){
   
   return result
 }
+
+function johnLennonFacts(facts){
+  facts.map(function())
+}
