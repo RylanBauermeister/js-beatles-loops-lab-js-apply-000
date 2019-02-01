@@ -14,6 +14,12 @@ function theBeatlesPlay(musicians, instruments){
   return result
 }
 
+//This is a great opportunity to use map!  So slick!
 function johnLennonFacts(facts){
   return facts.map(fact => fact + "!!!")
+}
+
+function iLoveTheBeatles(amount) {
+  let result = []
+  for(var i = 0; i <= amount && i < )
 }
