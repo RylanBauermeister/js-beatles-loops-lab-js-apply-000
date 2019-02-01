@@ -15,5 +15,5 @@ function theBeatlesPlay(musicians, instruments){
 }
 
 function johnLennonFacts(facts){
-  facts.map(function())
+  return facts.map(fact => fact+"!!!")
 }
